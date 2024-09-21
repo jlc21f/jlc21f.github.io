@@ -1,0 +1,52 @@
+html,
+body {
+  overflow: scroll;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    color: a9a9a9;
+    font-family: "Inter", sans-serif;
+}
+
+body p{
+    color: white;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--clr-4);
+  }
+
+  mark {
+    background-color: rgb(105, 105, 105);
+    margin: 3px;
+  }
+
+nav {
+    top: 20%;
+  float: left;
+  position: fixed;
+}
+
+li {
+  display: block;
+  margin: 0px 0px 0px 0px;
+  -webkit-writing-mode: vertical-rl;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  padding: 30px 0px 0px 0px;
+}
