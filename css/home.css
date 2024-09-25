@@ -1,0 +1,107 @@
+
+.opener{
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 10%;
+    padding: 10%;
+  }
+  
+  .opener img{
+    width: 25px;
+  }
+  
+  .main-section{
+    margin: 29%;
+    float: left;
+    padding: 0% 5% 5% 5%;
+  }
+  
+  .left_section{
+    padding: 0% 5% 5% 5%;
+    width: 30%;
+  }
+  
+  .right_section{
+    text-align: right;
+  }
+  
+  /* Float 3 columns side by side */
+  .card-column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .card-row {
+    padding: 6% 0 2% 5%;
+    width: 92%;
+    float: left;
+  }
+
+  /* Clear floats after the columns */
+  .card-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    padding: 6%;
+  }
+  
+  .card img{
+    width: 86%;
+    max-height: 320px;
+  }
+  
+  .card p{
+    width: 75%;
+  }
+  
+  .card2 {
+    text-align: right;
+  }
+  
+  .card2 img{
+    width: 250px;
+    height: 320px;
+    padding: 0% 15% 0% 0%;
+  
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .card-row2 {
+    width: 80%;
+  }
+  
+  /* Clear floats after the columns */
+  .card-row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card-column2 {
+    float: left;
+    width: 41.5%;
+    padding: 3px;
+  }
+  
+  /* image hover */
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .card:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card2:hover .image {
+    opacity: 0.3;
+  }
