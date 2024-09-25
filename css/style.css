@@ -71,7 +71,7 @@ mark {
 }
 
 nav {
-  top: -15%;
+  top: 15%;
   right: 4%;
   position: fixed;
   text-align: right;
@@ -79,7 +79,7 @@ nav {
 }
 
 nav img{
-  height: 5%;
+  width: 18px;
 }
 
 li {
@@ -99,34 +99,30 @@ li {
 
 .image-panel img{
   float: center;
+  width: 400px;
 }
 
 .contact {
-  background-color: #333;
-  color: white;
-  padding: 40px 20px;
-  text-align: center;
+  padding: 2%;
+  padding-left: 3%;
+  text-align: left;
   position: relative;
 }
-.contact h2 {
-  margin-bottom: 20px;
+
+.contact p{
+  color: white;
+  font-size: 15px;
+
 }
-.contact form {
+
+.contact-icons {
+  position: absolute;
+  bottom: 1.5%;
+  right: 4%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 10px;
 }
-.contact input, .contact textarea {
-  width: 80%;
-  padding: 10px;
-  margin: 10px 0;
-  border: none;
-  background-color: #444;
-  color: white;
-}
-.contact button {
-  padding: 10px 20px;
-  background-color: #d2d2d2;
-  color: white;
-  border: none;
+
+.contact-icons img {
+  height: 30px;
 }

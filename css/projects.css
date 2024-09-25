@@ -5,10 +5,35 @@
     padding: 10%;
   }
 
+  .opener a{
+    text-decoration: underline;
+  }
+
   .left_section{
     padding-left: 5%;
+    text-align: left;
+    width: 60%;
   }
 
   .project img {
-    width: 50%;
+    width: 90%;
+    padding-bottom: 2%;
   }
+
+  .project-section{
+    padding-bottom: 2%;
+  }
+
+    /* image hover */
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .project:hover .image {
+      opacity: 0.3;
+    }

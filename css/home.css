@@ -13,7 +13,7 @@
   .main-section{
     margin: 29%;
     float: left;
-    padding: 30px;
+    padding: 0% 5% 5% 5%;
   }
   
   .left_section{
@@ -33,19 +33,11 @@
   
   /* Remove extra left and right margins, due to padding */
   .card-row {
-    padding-top: 10%;
-    padding-left: 5%;
+    padding: 6% 0 2% 5%;
     width: 92%;
     float: left;
   }
-  
-  /* Clear floats after the columns */
-  .card-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+
   /* Clear floats after the columns */
   .card-row:after {
     content: "";
@@ -64,7 +56,7 @@
   }
   
   .card p{
-    width: 55%;
+    width: 75%;
   }
   
   .card2 {
@@ -72,7 +64,7 @@
   }
   
   .card2 img{
-    width: 220px;
+    width: 250px;
     height: 320px;
     padding: 0% 15% 0% 0%;
   
@@ -96,3 +88,20 @@
     padding: 3px;
   }
   
+  /* image hover */
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .card:hover .image {
+    opacity: 0.3;
+  }
+  
+  .card2:hover .image {
+    opacity: 0.3;
+  }
