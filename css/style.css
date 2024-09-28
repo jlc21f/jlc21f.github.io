@@ -97,8 +97,7 @@ li {
 }
 
 .image-panel img{
-  float: center;
-  width: 400px;
+  width: 100%;
 }
 
 .contact {
@@ -106,7 +105,6 @@ li {
   padding-left: 3%;
   text-align: left;
   position: relative;
-  background-color: black;
   overflow: hidden;
 }
 
