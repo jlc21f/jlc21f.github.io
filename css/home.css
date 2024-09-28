@@ -33,7 +33,7 @@
   
   /* Remove extra left and right margins, due to padding */
   .card-row {
-    padding: 6% 0 2% 5%;
+    padding: 6% 5% 2% 5%;
     width: 92%;
     float: left;
   }
@@ -54,11 +54,30 @@
     width: 86%;
     max-height: 320px;
   }
-  
+
   .card p{
     width: 75%;
   }
-  
+      
+  /* image hover */
+  .image {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .card:hover .image {
+    opacity: 0.3;
+  }
+
+  /* Clear floats after the columns */
+  .card-row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
   .card2 {
     text-align: right;
   }
@@ -67,41 +86,20 @@
     width: 250px;
     height: 320px;
     padding: 0% 15% 0% 0%;
-  
   }
   
   /* Remove extra left and right margins, due to padding */
   .card-row2 {
     width: 80%;
   }
-  
-  /* Clear floats after the columns */
-  .card-row2:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+
   .card-column2 {
     float: left;
     width: 41.5%;
     padding: 3px;
   }
-  
-  /* image hover */
-  .image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-  }
 
-  .card:hover .image {
-    opacity: 0.3;
-  }
-  
   .card2:hover .image {
     opacity: 0.3;
   }
+

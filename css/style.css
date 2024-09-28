@@ -10,7 +10,6 @@ body {
 html {
   height: 100%;
   width: 100%;
-  
 }
 
 body{
@@ -103,10 +102,12 @@ li {
 }
 
 .contact {
-  padding: 2%;
+  padding: 1.5%;
   padding-left: 3%;
   text-align: left;
   position: relative;
+  background-color: black;
+  overflow: hidden;
 }
 
 .contact p{
