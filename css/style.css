@@ -39,7 +39,7 @@ h3{
 body p{
     color: white;
     font-weight: 300;
-    font-size: 1.3rem;
+    font-size: 18px;
 }
 
 mark{
@@ -91,7 +91,7 @@ li {
 }
 
 .image-panel{
-  width: 27%;
+  width: 380px;
   padding-left: 5%;
   float: right;
 }
@@ -104,6 +104,7 @@ li {
   padding: 1.5%;
   padding-left: 3%;
   text-align: left;
+  bottom: 0;
   position: relative;
   overflow: hidden;
 }
