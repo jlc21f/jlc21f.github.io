@@ -1,9 +1,7 @@
 
 .opener{
     text-align: right;
-    padding-right: 40px;
-    padding-top: 10%;
-    padding: 10%;
+    padding: 10% 0 5% 3%;
   }
   
   .opener img{
@@ -52,7 +50,6 @@
   
   .card img{
     width: 86%;
-    max-height: 320px;
   }
 
   .card p{
@@ -90,7 +87,7 @@
   
   /* Remove extra left and right margins, due to padding */
   .card-row2 {
-    width: 80%;
+    width: 75%;
   }
 
   .card-column2 {

@@ -12,6 +12,14 @@ html {
   width: 100%;
 }
 
+:root {
+  --clr-1: #4e6743;
+  --clr-2: #24301f;
+  --clr-3: #b1c4ac;
+  --clr-4: #e9ffde;
+}
+
+
 body{
   background-color: rgb(169, 169, 169);
   font-family: "Inter", sans-serif;
