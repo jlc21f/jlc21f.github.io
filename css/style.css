@@ -16,39 +16,37 @@ html {
   --clr-1: #4e6743;
   --clr-2: #24301f;
   --clr-3: #b1c4ac;
-  --clr-4: #e9ffde;
+  --clr-4: #ffffff;
 }
 
-
 body{
-  background: rgb(63,86,59);
-  background: linear-gradient(310deg, rgba(63,86,59,1) 32%, rgb(67, 96, 69) 51%,);
+  background-color: var(--clr-1);
   font-family: "Inter", sans-serif;
   margin-left: 2%;
 }
 
 h1{
-  color: white;
+  color: var(--clr-4);
   font-weight: 340;
 letter-spacing: 2.5px;
 font-size: 60px;
 }
 
 h2{
-  color: white;
+  color: var(--clr-4);
   font-weight: 330;
   font-size: 45px;
   letter-spacing: 2px;
 }
 
 h3{
-  color: white;
+  color: var(--clr-4);
   font-weight: 300;
   font-size: 20px;
 }
 
 body p{
-    color: white;
+  color: var(--clr-4);
     font-weight: 300;
     font-size: 18px;
 }
@@ -59,15 +57,15 @@ body p{
 
 a:link {
   text-decoration: none;
-  color: white;
+  color: var(--clr-4);
 }
 
 a:hover {
-  color: whitesmoke;
+  color: var(--clr-4);
   }
 
 a:visited {
-  color: white;
+  color: var(--clr-4);
   }
 
 mark {
@@ -116,7 +114,7 @@ li {
 }
 
 .contact p{
-  color: white;
+  color: var(--clr-4);
   font-size: 15px;
 
 }
